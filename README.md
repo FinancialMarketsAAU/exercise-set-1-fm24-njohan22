@@ -48,3 +48,10 @@ $$lim_{n \rightarrow \infty}(x_1^n,x_2^n) \succsim (y_1,y_2)$$
 Thus it is not continous.
 
 Excercise 3)
+
+i)
+
+$U(x+y) = \alpha_1(x_1 + y_1) + \alpha_2(x_2+y_2) =  \alpha_1 x_1 +  \alpha_1 y_1 +  \alpha_2 x_2 +  \alpha_2 y_2 = U(x) + U(y)$
+$U(cx) = \alpha_1 cx_1 + \alpha_2 cx_2 = cU(x)
+
+ii)
