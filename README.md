@@ -24,6 +24,9 @@ Assume $x \succ y \succsim z$. Then we have $x \succsim y$ and not $x \precsim y
 $x \succ z$
 
 Exercise 2)
+
+i)
+
 Assume $(x_1,x_2) \succsim (y_1,y_2)$ and $(y_1,y_2) \succsim (z_1,z_2)$. Then we have 4 cases to consider.
 
 The first condition for both relations. We know that $x_1 > y_1 > z_1$. Thus $(x_1,x_2) \succsim (z_1,z_2)$.
@@ -33,3 +36,15 @@ The second condition for both relation. we know that $x_1 = y_1 = z_1$ and $x_2 
 The first conditon is true for the first relation, and the second condition is true for the second relation. We know that $x_1 > y_1 = z_1$. Thus $(x_1,x_2) \succsim (z_1,z_2)$.
 
 The second condition is true for the first relation, and the first condition is true for the second relation. We know that $x_1 = y_1 > z_1$ Thus $(x_1,x_2) \succsim (z_1,z_2)$.
+
+ii)
+
+$\forall n \in \mathbb{N}$ we have:
+$$(x_1^n,x_2^n) \precsim (y_1,y_2)$$
+
+But we also have:
+$$lim_{n \rightarrow \infty}(x_1^n,x_2^n) \succsim (y_1,y_2)$$
+
+Thus it is not continous.
+
+Excercise 3)
