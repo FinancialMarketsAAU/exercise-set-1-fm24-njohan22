@@ -22,3 +22,14 @@ iii)
 
 Assume $x \succ y \succsim z$. Then we have $x \succsim y$ and not $x \precsim y$. We also have $y \succsim z$ and $y \precsim z$. Thus we have $x \succsim z$ and not $x \precsim z$. Thus we have 
 $x \succ z$
+
+Exercise 2)
+Assume $(x_1,x_2) \succsim (y_1,y_2)$ and $(y_1,y_2) \succsim (z_1,z_2)$. Then we have 4 cases to consider.
+
+The first condition for both relations. We know that $x_1 > y_1 > z_1$. Thus $(x_1,x_2) \succsim (z_1,z_2)$.
+
+The second condition for both relation. we know that $x_1 = y_1 = z_1$ and $x_2 \geq y_2 \geq z_2$. Thus $(x_1,x_2) \succsim (z_1,z_2)$.
+
+The first conditon is true for the first relation, and the second condition is true for the second relation. We know that $x_1 > y_1 = z_1$. Thus $(x_1,x_2) \succsim (z_1,z_2)$.
+
+The second condition is true for the first relation, and the first condition is true for the second relation. We know that $x_1 = y_1 > z_1$ Thus $(x_1,x_2) \succsim (z_1,z_2)$.
