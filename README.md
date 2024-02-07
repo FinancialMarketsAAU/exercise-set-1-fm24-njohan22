@@ -65,8 +65,11 @@ Letting $\rho \rightarrow 0$
 $$\frac{\alpha_1 ln(x_1) + \alpha_2 ln(x_2)}{\alpha_1+\alpha_2}$$
 
 Which means:
-$$U(x) = e^{\frac{\alpha_1 ln(x_1) + \alpha_2 ln(x_2)}{\alpha_1+\alpha_2}] = x_ 1^{\alpha_1} x_2^{\alpha_2}$$
+$$U(x) = e^{\frac{\alpha_1 ln(x_1) + \alpha_2 ln(x_2)}{\alpha_1+\alpha_2}} = x_1^{\alpha_1} x_2^{\alpha_2}$$
 
+(Its actually the $\alpha_1 + \alpha_2$, root of $x_1^{\alpha_1} x_2^{\alpha_2}$, but $\alpha_1 + \alpha_2 = 1$ in cobb-douglas).
+
+iii)
 
 
 
