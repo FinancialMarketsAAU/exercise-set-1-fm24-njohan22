@@ -51,7 +51,22 @@ Excercise 3)
 
 i)
 
-$U(x+y) = \alpha_1(x_1 + y_1) + \alpha_2(x_2+y_2) =  \alpha_1 x_1 +  \alpha_1 y_1 +  \alpha_2 x_2 +  \alpha_2 y_2 = U(x) + U(y)$
-$U(cx) = \alpha_1 cx_1 + \alpha_2 cx_2 = cU(x)
+$$U(x+y) = \alpha_1(x_1 + y_1) + \alpha_2(x_2+y_2) =  \alpha_1 x_1 +  \alpha_1 y_1 +  \alpha_2 x_2 +  \alpha_2 y_2 = U(x) + U(y)$$
+$$U(cx) = \alpha_1 cx_1 + \alpha_2 cx_2 = cU(x)$$
 
 ii)
+$$ln(U(x)) = \frac{ln(\alpha_1x_1^\rho + \alpha_2x_2^\rho)}{\rho}$$
+
+Then we can use L'hospital when we let $\rho \rightarrow 0$ because in cobb-douglas $\alpha_1 + \alpha_2 = 1$.
+$$\frac{\alpha_1x_1^\rho ln(x_1) + \alpha_2 x_2^\rho ln(x_2)}{\alpha_1x_1^\rho+\alpha_2x_2^\rho}$$
+
+Letting $\rho \rightarrow 0$
+
+$$\frac{\alpha_1 ln(x_1) + \alpha_2 ln(x_2)}{\alpha_1+\alpha_2}$$
+
+Which means:
+$$U(x) = e^{\frac{\alpha_1 ln(x_1) + \alpha_2 ln(x_2)}{\alpha_1+\alpha_2}] = x_ 1^{\alpha_1} x_2^{\alpha_2}$$
+
+
+
+
