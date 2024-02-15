@@ -99,7 +99,8 @@ linewidth = 3, label="{y∈R²:y~x}")
 
 iv)
 
-when $\rho = \frac{1}{2}$, $\alpha_1 = \alpha_2 = 1$ and $U(x)= 1$, $U(x)= 2$ and $U(x)= 3$ we gave the following julia code
+when $\rho = \frac{1}{2}$, $\alpha_1 = \alpha_2 = 1$ and $U(x)= 1$, $U(x)= 2$ and $U(x)= 3$ we use the following julia code
+
 
 using Plots
 
@@ -107,15 +108,19 @@ X = 0.1:0.05:1
 
 K = 1:1:3
 
-f(x,k) =(k-sqrt(x))^2
+p = 1/2
+
+f(x,k) =(k^p-x^p)^(1/p)
 
 y=[f(x,k) for x in X, k in K]
 
 plot(X, y, label=["K=1" "K=2" "K=3"])
 
+
 v)
 If we take
 $$\lim_{\rho \to -\infty}U(x) = \lim_{\rho \to -\infty}(\alpha_1x_1^\rho + \alpha_2x_2^\rho)^\frac{1}{\rho}$$
+
 
 
 
