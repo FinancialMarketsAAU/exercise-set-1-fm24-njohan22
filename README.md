@@ -115,7 +115,7 @@ plot(X, y, label=["K=1" "K=2" "K=3"])
 
 v)
 If we take
-$$\lim_{\rho \to -\infty}U(x) = \lim_{\rho \to -\infty}(\alpha_1x_1^\rho + \alpha_2x_2^\rho)^\frac{1}{\rho}$$ = 1
+$$\lim_{\rho \to -\infty}U(x) = \lim_{\rho \to -\infty}(\alpha_1x_1^\rho + \alpha_2x_2^\rho)^\frac{1}{\rho}$$
 
 
 
