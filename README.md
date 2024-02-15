@@ -52,6 +52,7 @@ Excercise 3)
 i)
 
 $$U(x+y) = \alpha_1(x_1 + y_1) + \alpha_2(x_2+y_2) =  \alpha_1 x_1 +  \alpha_1 y_1 +  \alpha_2 x_2 +  \alpha_2 y_2 = U(x) + U(y)$$
+
 $$U(cx) = \alpha_1 cx_1 + \alpha_2 cx_2 = cU(x)$$
 
 ii)
@@ -71,5 +72,28 @@ $$U(x) = e^{\frac{\alpha_1 ln(x_1) + \alpha_2 ln(x_2)}{\alpha_1+\alpha_2}} = x_1
 
 iii)
 
+If $\alpha = 1$, $\rho = \frac{1}{2}$ and $U(x) = 1$ then
+$$1 = (x_1^{\frac{1}{2}}+x_2^{\frac{1}{2}})^2$$
+
+$$(1 -\sqrt{x})^2 = x_2$$
+
+then the following code shows the lower countour set
+
+using Plots
+
+X = 0.1:0.005:0.35     
+
+α = 1
+
+f(x,k) =(1-sqrt(x))^2
+
+y=[f(x,0.5) for x in X]
+
+plot(X,y, fillrange = zeros(size(X,1),1), 
+
+fillalpha = 0.3, label="{y∈R²:y≺x}")
+plot!(X,y,line = :dash, color = :red, 
+
+linewidth = 3, label="{y∈R²:y~x}")
 
 
